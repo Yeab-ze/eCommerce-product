@@ -1,10 +1,15 @@
 import React from 'react'
-import navbar from '../src/components/Navbar'
+import Navbar from './components/Navbar'
+import ProductCard from './components/ProductCard'
+import Hero from './components/Hero'
+
 
 const App = () => {
   return (
     <div>
-      <navbar/>
+      <Navbar/>
+      <Hero/>
+      <ProductCard/>
     </div>
   )
 }
