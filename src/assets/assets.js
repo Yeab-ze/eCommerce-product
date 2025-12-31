@@ -1,10 +1,14 @@
 export const button = "bg-blue-500 rounded-md px-4";
 
 import heroImg from './images-removebg-preview.png'
+import womenWithHeadphone from './women with headphone-612x612.jpg'
 
 export const assets = {
-  heroImg
+  heroImg,
+  womenWithHeadphone
 }
+
+
 
 export const products = [
   {
