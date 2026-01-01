@@ -12,6 +12,7 @@ export const assets = {
 
 export const products = [
   {
+    id:1,
     name: "Earbud",
     desc: "Earbud Y168A",
     price: 270.0,
@@ -19,6 +20,8 @@ export const products = [
   },
 
     {
+
+      id: 2,
     name: "Earbud",
     desc: "Earbud Y168A",
     price: 270.0,
@@ -26,6 +29,7 @@ export const products = [
   },
 
     {
+         id: 3,
     name: "Earbud",
     desc: "Earbud Y168A",
     price: 270.0,
@@ -33,6 +37,7 @@ export const products = [
   },
 
     {
+         id: 4,
     name: "Earbud",
     desc: "Earbud Y168A",
     price: 270.0,
@@ -41,6 +46,7 @@ export const products = [
 
 
     {
+         id: 5,
     name: "Earbud",
     desc: "Earbud Y168A",
     price: 270.0,
@@ -48,6 +54,7 @@ export const products = [
   },
 
     {
+         id: 5,
     name: "Earbud",
     desc: "Earbud Y168A",
     price: 270.0,
@@ -55,6 +62,7 @@ export const products = [
   },
 
   {
+       id: 6,
     name: "Headphone",
     desc: "Pro X187A",
     price: 250.0,
@@ -62,6 +70,7 @@ export const products = [
   },
 
   {
+       id: 7,
     name: "Speaker",
     desc: "Speaker P174A",
     price: 240.0,

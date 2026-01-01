@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import ProductCard from './components/ProductCard'
 import Hero from './components/Hero'
 import Footer from './components/Footer'
+import Products from './components/Products'
 
 
 const App = () => {
@@ -10,7 +10,7 @@ const App = () => {
     <div>
       <Navbar/>
       <Hero/>
-      <ProductCard/>
+      <Products/>
       <Footer/>
     </div>
 

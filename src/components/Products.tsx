@@ -5,15 +5,17 @@ import ProductCard from "./ProductCard";
 const Products = () => {
   return (
     <>
-      {products.map((product) => (
+     <div className="grid gap-3 mt-5 mx-9 grid-cols md:grid-cols-4">
+         {products.map((product) => (
         <ProductCard
-          key={Math.random()}
+          key={product.id}
           img={product.img}
           name={product.name}
           desc={product.desc}
           price={product.price}
         />
       ))}
+     </div>
     </>
   );
 };
